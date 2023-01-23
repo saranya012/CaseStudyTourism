@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    background-color: beige;
+    border: 2px solid darkblue;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+#login{
+    width: 100%;    
+}
+
+.form h3{
+    text-align: center;
+}
+body{
+    background-image: url("../images/boat.jpg");
+    background-size: cover;
+}
+
+.nav-item a:hover{
+    color: red !important; 
+}
+
+footer{
+    background-color: salmon;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}

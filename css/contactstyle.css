@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item a:hover{
+    color: red !important; 
+}
+
+.address{
+    margin: 40px;
+    background-color: beige;
+}
+
+footer{
+    background-color: salmon;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}

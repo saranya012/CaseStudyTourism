@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a:hover{
+    color: red !important; 
+}
+
+.about{
+    margin: 40px;
+    background-color: beige;
+}
+
+footer{
+    background-color: salmon;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}

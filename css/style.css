@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item a:hover{
+     color: red !important; 
+}
+
+.container{
+    margin-top: 15px;
+}
+
+.textall{
+    padding-top: 80px;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.card-body{
+    background-color: gainsboro;
+    border: 3px solid white;
+}
+
+
+footer{
+    background-color: salmon;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
