@@ -54,7 +54,7 @@
             <div class="row">
                 <div
                     class="col-10 offset-1 col-lg-8 offset-lg-2 ">
-                    <form class="form p-5" >
+                    <form class="form p-5" action="success.html">
                         <h3>Sign Up</h3>
                         <div class="mb-3">
                             <label for="firstname" class="form-label">First Name</label>
@@ -62,21 +62,25 @@
                                 <label for="secondname" class="form-label">Second Name</label>
                                 <input type="text" class="form-control" id="secondname">
                                     <label for="phone" class="form-label">Mobile Number</label>
-                                    <input type="text" class="form-control" id="mobile">   
+                                    <input type="text" class="form-control" id="mobile" onkeyup="validateMobile()">
+                                    <span id="phone-error"></span>   <br>
                             <label for="exampleInputEmail1" class="form-label">Email ID</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control" id="password" onkeyup="validatePassword()">
+                                <span id="password-error"></span>
                             </div>
-                            <button id="SignUp" type="submit" class="btn btn-primary">Sign Up</button>
+                            <button id="SignUp" type="submit" class="btn btn-primary" onclick="return validateForm()">Sign Up</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 <footer>

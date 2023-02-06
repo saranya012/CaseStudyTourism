@@ -19,7 +19,7 @@
     text-align: center;
 }
 body{
-    background-image: url("../images/bghills.jpg");
+    /* background-image: url("../images/bghills.jpg"); */
     background-size: cover;
 }
 
@@ -33,3 +33,12 @@ footer{
     margin-top: 5%;
     text-align: center;
 }
+
+span{
+    color: red;
+}
+
+span > span {
+    color: green;
+}
+
